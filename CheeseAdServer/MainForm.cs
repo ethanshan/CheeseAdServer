@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace CheeseAdServer
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -19,6 +19,11 @@ namespace CheeseAdServer
         private void refresh_bt_Click(object sender, EventArgs e)
         {
             ControlClient.Connect("192.168.1.101", "Hello World\n 1 \n 2 \n");
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
 
     }

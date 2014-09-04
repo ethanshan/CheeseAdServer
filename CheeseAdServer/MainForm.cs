@@ -18,12 +18,16 @@ namespace CheeseAdServer
 
         private void refresh_bt_Click(object sender, EventArgs e)
         {
-            ControlClient.Connect("192.168.1.101", "Hello World\n 1 \n 2 \n");
+            //ControlClient.Connect("192.168.1.101", "Hello World\n 1 \n 2 \n");
         }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            // 1. fetch config
+            ScheduleConfig config = LocalDatabase.getInstance().getConfig();
 
+            // 2. Initial UI control text from the config
+            
         }
 
     }

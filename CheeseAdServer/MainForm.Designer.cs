@@ -32,7 +32,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.mon_startup_edit_bt = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -41,13 +41,13 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.mon_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.mon_enable_ck = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.tues_startup_edit_bt = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.tues_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.tues_enable_ck = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -60,24 +60,24 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.wed_startup_edit_bt = new System.Windows.Forms.Button();
+            this.thur_startup_edit_bt = new System.Windows.Forms.Button();
+            this.fri_startup_edit_bt = new System.Windows.Forms.Button();
+            this.sat_startup_edit_bt = new System.Windows.Forms.Button();
+            this.sun_startup_edit_bt = new System.Windows.Forms.Button();
+            this.global_startup_edit_bt = new System.Windows.Forms.Button();
+            this.wed_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.thur_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.fri_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.sat_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.sun_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.global_shutdown_edit_bt = new System.Windows.Forms.Button();
+            this.wed_enable_ck = new System.Windows.Forms.CheckBox();
+            this.thur_enable_ck = new System.Windows.Forms.CheckBox();
+            this.fri_enable_ck = new System.Windows.Forms.CheckBox();
+            this.sat_enable_ck = new System.Windows.Forms.CheckBox();
+            this.sun_enable_ck = new System.Windows.Forms.CheckBox();
+            this.global_enable_ck = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,7 +103,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.mon_startup_edit_bt, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label4, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 3);
@@ -112,13 +112,13 @@
             this.tableLayoutPanel1.Controls.Add(this.label8, 0, 6);
             this.tableLayoutPanel1.Controls.Add(this.label9, 0, 7);
             this.tableLayoutPanel1.Controls.Add(this.label10, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox1, 5, 0);
+            this.tableLayoutPanel1.Controls.Add(this.mon_shutdown_edit_bt, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.mon_enable_ck, 5, 0);
             this.tableLayoutPanel1.Controls.Add(this.label11, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button3, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tues_startup_edit_bt, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label12, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button4, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox2, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tues_shutdown_edit_bt, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tues_enable_ck, 5, 1);
             this.tableLayoutPanel1.Controls.Add(this.label13, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.label14, 3, 2);
             this.tableLayoutPanel1.Controls.Add(this.label15, 1, 3);
@@ -131,24 +131,24 @@
             this.tableLayoutPanel1.Controls.Add(this.label22, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.label23, 3, 6);
             this.tableLayoutPanel1.Controls.Add(this.label24, 3, 7);
-            this.tableLayoutPanel1.Controls.Add(this.button5, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button6, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.button7, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.button8, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.button9, 2, 6);
-            this.tableLayoutPanel1.Controls.Add(this.button10, 2, 7);
-            this.tableLayoutPanel1.Controls.Add(this.button11, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button12, 4, 3);
-            this.tableLayoutPanel1.Controls.Add(this.button13, 4, 4);
-            this.tableLayoutPanel1.Controls.Add(this.button14, 4, 5);
-            this.tableLayoutPanel1.Controls.Add(this.button15, 4, 6);
-            this.tableLayoutPanel1.Controls.Add(this.button16, 4, 7);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox3, 5, 2);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox4, 5, 3);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox5, 5, 4);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox6, 5, 5);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox7, 5, 6);
-            this.tableLayoutPanel1.Controls.Add(this.checkBox8, 5, 7);
+            this.tableLayoutPanel1.Controls.Add(this.wed_startup_edit_bt, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.thur_startup_edit_bt, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.fri_startup_edit_bt, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.sat_startup_edit_bt, 2, 5);
+            this.tableLayoutPanel1.Controls.Add(this.sun_startup_edit_bt, 2, 6);
+            this.tableLayoutPanel1.Controls.Add(this.global_startup_edit_bt, 2, 7);
+            this.tableLayoutPanel1.Controls.Add(this.wed_shutdown_edit_bt, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.thur_shutdown_edit_bt, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.fri_shutdown_edit_bt, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.sat_shutdown_edit_bt, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.sun_shutdown_edit_bt, 4, 6);
+            this.tableLayoutPanel1.Controls.Add(this.global_shutdown_edit_bt, 4, 7);
+            this.tableLayoutPanel1.Controls.Add(this.wed_enable_ck, 5, 2);
+            this.tableLayoutPanel1.Controls.Add(this.thur_enable_ck, 5, 3);
+            this.tableLayoutPanel1.Controls.Add(this.fri_enable_ck, 5, 4);
+            this.tableLayoutPanel1.Controls.Add(this.sat_enable_ck, 5, 5);
+            this.tableLayoutPanel1.Controls.Add(this.sun_enable_ck, 5, 6);
+            this.tableLayoutPanel1.Controls.Add(this.global_enable_ck, 5, 7);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 58);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
@@ -185,15 +185,15 @@
             this.label2.Text = "自动开机时间:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // mon_startup_edit_bt
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Location = new System.Drawing.Point(289, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "06:30";
-            this.button1.UseVisualStyleBackColor = true;
+            this.mon_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mon_startup_edit_bt.Location = new System.Drawing.Point(289, 5);
+            this.mon_startup_edit_bt.Name = "mon_startup_edit_bt";
+            this.mon_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.mon_startup_edit_bt.TabIndex = 2;
+            this.mon_startup_edit_bt.Text = "06:30";
+            this.mon_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -283,27 +283,27 @@
             this.label10.Text = "自动关机时间:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button2
+            // mon_shutdown_edit_bt
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Location = new System.Drawing.Point(511, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(56, 35);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "18:30";
-            this.button2.UseVisualStyleBackColor = true;
+            this.mon_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mon_shutdown_edit_bt.Location = new System.Drawing.Point(511, 5);
+            this.mon_shutdown_edit_bt.Name = "mon_shutdown_edit_bt";
+            this.mon_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.mon_shutdown_edit_bt.TabIndex = 11;
+            this.mon_shutdown_edit_bt.Text = "18:30";
+            this.mon_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // mon_enable_ck
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox1.Location = new System.Drawing.Point(575, 5);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(58, 35);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.Text = "开启";
-            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.mon_enable_ck.AutoSize = true;
+            this.mon_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mon_enable_ck.Location = new System.Drawing.Point(575, 5);
+            this.mon_enable_ck.Name = "mon_enable_ck";
+            this.mon_enable_ck.Size = new System.Drawing.Size(58, 35);
+            this.mon_enable_ck.TabIndex = 12;
+            this.mon_enable_ck.Text = "开启";
+            this.mon_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.mon_enable_ck.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -316,15 +316,15 @@
             this.label11.Text = "自动开机时间:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button3
+            // tues_startup_edit_bt
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Location = new System.Drawing.Point(289, 48);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(56, 35);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "06:30";
-            this.button3.UseVisualStyleBackColor = true;
+            this.tues_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tues_startup_edit_bt.Location = new System.Drawing.Point(289, 48);
+            this.tues_startup_edit_bt.Name = "tues_startup_edit_bt";
+            this.tues_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.tues_startup_edit_bt.TabIndex = 14;
+            this.tues_startup_edit_bt.Text = "06:30";
+            this.tues_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
@@ -337,27 +337,27 @@
             this.label12.Text = "自动关机时间:";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button4
+            // tues_shutdown_edit_bt
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.Location = new System.Drawing.Point(511, 48);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(56, 35);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "18:30";
-            this.button4.UseVisualStyleBackColor = true;
+            this.tues_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tues_shutdown_edit_bt.Location = new System.Drawing.Point(511, 48);
+            this.tues_shutdown_edit_bt.Name = "tues_shutdown_edit_bt";
+            this.tues_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.tues_shutdown_edit_bt.TabIndex = 16;
+            this.tues_shutdown_edit_bt.Text = "18:30";
+            this.tues_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // tues_enable_ck
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox2.Location = new System.Drawing.Point(575, 48);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(58, 35);
-            this.checkBox2.TabIndex = 17;
-            this.checkBox2.Text = "开启";
-            this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.tues_enable_ck.AutoSize = true;
+            this.tues_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tues_enable_ck.Location = new System.Drawing.Point(575, 48);
+            this.tues_enable_ck.Name = "tues_enable_ck";
+            this.tues_enable_ck.Size = new System.Drawing.Size(58, 35);
+            this.tues_enable_ck.TabIndex = 17;
+            this.tues_enable_ck.Text = "开启";
+            this.tues_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tues_enable_ck.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -491,197 +491,197 @@
             this.label24.Text = "自动关机时间:";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button5
+            // wed_startup_edit_bt
             // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.Location = new System.Drawing.Point(289, 91);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(56, 35);
-            this.button5.TabIndex = 30;
-            this.button5.Text = "06:30";
-            this.button5.UseVisualStyleBackColor = true;
+            this.wed_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wed_startup_edit_bt.Location = new System.Drawing.Point(289, 91);
+            this.wed_startup_edit_bt.Name = "wed_startup_edit_bt";
+            this.wed_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.wed_startup_edit_bt.TabIndex = 30;
+            this.wed_startup_edit_bt.Text = "06:30";
+            this.wed_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // thur_startup_edit_bt
             // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Location = new System.Drawing.Point(289, 134);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(56, 35);
-            this.button6.TabIndex = 31;
-            this.button6.Text = "06:30";
-            this.button6.UseVisualStyleBackColor = true;
+            this.thur_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.thur_startup_edit_bt.Location = new System.Drawing.Point(289, 134);
+            this.thur_startup_edit_bt.Name = "thur_startup_edit_bt";
+            this.thur_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.thur_startup_edit_bt.TabIndex = 31;
+            this.thur_startup_edit_bt.Text = "06:30";
+            this.thur_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // fri_startup_edit_bt
             // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Location = new System.Drawing.Point(289, 177);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(56, 35);
-            this.button7.TabIndex = 32;
-            this.button7.Text = "06:30";
-            this.button7.UseVisualStyleBackColor = true;
+            this.fri_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fri_startup_edit_bt.Location = new System.Drawing.Point(289, 177);
+            this.fri_startup_edit_bt.Name = "fri_startup_edit_bt";
+            this.fri_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.fri_startup_edit_bt.TabIndex = 32;
+            this.fri_startup_edit_bt.Text = "06:30";
+            this.fri_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // sat_startup_edit_bt
             // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button8.Location = new System.Drawing.Point(289, 220);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(56, 35);
-            this.button8.TabIndex = 33;
-            this.button8.Text = "06:30";
-            this.button8.UseVisualStyleBackColor = true;
+            this.sat_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sat_startup_edit_bt.Location = new System.Drawing.Point(289, 220);
+            this.sat_startup_edit_bt.Name = "sat_startup_edit_bt";
+            this.sat_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.sat_startup_edit_bt.TabIndex = 33;
+            this.sat_startup_edit_bt.Text = "06:30";
+            this.sat_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // sun_startup_edit_bt
             // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.Location = new System.Drawing.Point(289, 263);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(56, 35);
-            this.button9.TabIndex = 34;
-            this.button9.Text = "06:30";
-            this.button9.UseVisualStyleBackColor = true;
+            this.sun_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sun_startup_edit_bt.Location = new System.Drawing.Point(289, 263);
+            this.sun_startup_edit_bt.Name = "sun_startup_edit_bt";
+            this.sun_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.sun_startup_edit_bt.TabIndex = 34;
+            this.sun_startup_edit_bt.Text = "06:30";
+            this.sun_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // global_startup_edit_bt
             // 
-            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button10.Location = new System.Drawing.Point(289, 306);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(56, 38);
-            this.button10.TabIndex = 35;
-            this.button10.Text = "06:30";
-            this.button10.UseVisualStyleBackColor = true;
+            this.global_startup_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.global_startup_edit_bt.Location = new System.Drawing.Point(289, 306);
+            this.global_startup_edit_bt.Name = "global_startup_edit_bt";
+            this.global_startup_edit_bt.Size = new System.Drawing.Size(56, 38);
+            this.global_startup_edit_bt.TabIndex = 35;
+            this.global_startup_edit_bt.Text = "06:30";
+            this.global_startup_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // wed_shutdown_edit_bt
             // 
-            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button11.Location = new System.Drawing.Point(511, 91);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(56, 35);
-            this.button11.TabIndex = 36;
-            this.button11.Text = "18:30";
-            this.button11.UseVisualStyleBackColor = true;
+            this.wed_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wed_shutdown_edit_bt.Location = new System.Drawing.Point(511, 91);
+            this.wed_shutdown_edit_bt.Name = "wed_shutdown_edit_bt";
+            this.wed_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.wed_shutdown_edit_bt.TabIndex = 36;
+            this.wed_shutdown_edit_bt.Text = "18:30";
+            this.wed_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // thur_shutdown_edit_bt
             // 
-            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button12.Location = new System.Drawing.Point(511, 134);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(56, 35);
-            this.button12.TabIndex = 37;
-            this.button12.Text = "18:30";
-            this.button12.UseVisualStyleBackColor = true;
+            this.thur_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.thur_shutdown_edit_bt.Location = new System.Drawing.Point(511, 134);
+            this.thur_shutdown_edit_bt.Name = "thur_shutdown_edit_bt";
+            this.thur_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.thur_shutdown_edit_bt.TabIndex = 37;
+            this.thur_shutdown_edit_bt.Text = "18:30";
+            this.thur_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // fri_shutdown_edit_bt
             // 
-            this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button13.Location = new System.Drawing.Point(511, 177);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(56, 35);
-            this.button13.TabIndex = 38;
-            this.button13.Text = "18:30";
-            this.button13.UseVisualStyleBackColor = true;
+            this.fri_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fri_shutdown_edit_bt.Location = new System.Drawing.Point(511, 177);
+            this.fri_shutdown_edit_bt.Name = "fri_shutdown_edit_bt";
+            this.fri_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.fri_shutdown_edit_bt.TabIndex = 38;
+            this.fri_shutdown_edit_bt.Text = "18:30";
+            this.fri_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // sat_shutdown_edit_bt
             // 
-            this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button14.Location = new System.Drawing.Point(511, 220);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(56, 35);
-            this.button14.TabIndex = 39;
-            this.button14.Text = "18:30";
-            this.button14.UseVisualStyleBackColor = true;
+            this.sat_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sat_shutdown_edit_bt.Location = new System.Drawing.Point(511, 220);
+            this.sat_shutdown_edit_bt.Name = "sat_shutdown_edit_bt";
+            this.sat_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.sat_shutdown_edit_bt.TabIndex = 39;
+            this.sat_shutdown_edit_bt.Text = "18:30";
+            this.sat_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // sun_shutdown_edit_bt
             // 
-            this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button15.Location = new System.Drawing.Point(511, 263);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(56, 35);
-            this.button15.TabIndex = 40;
-            this.button15.Text = "18:30";
-            this.button15.UseVisualStyleBackColor = true;
+            this.sun_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sun_shutdown_edit_bt.Location = new System.Drawing.Point(511, 263);
+            this.sun_shutdown_edit_bt.Name = "sun_shutdown_edit_bt";
+            this.sun_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
+            this.sun_shutdown_edit_bt.TabIndex = 40;
+            this.sun_shutdown_edit_bt.Text = "18:30";
+            this.sun_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // global_shutdown_edit_bt
             // 
-            this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button16.Location = new System.Drawing.Point(511, 306);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(56, 38);
-            this.button16.TabIndex = 41;
-            this.button16.Text = "18:30";
-            this.button16.UseVisualStyleBackColor = true;
+            this.global_shutdown_edit_bt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.global_shutdown_edit_bt.Location = new System.Drawing.Point(511, 306);
+            this.global_shutdown_edit_bt.Name = "global_shutdown_edit_bt";
+            this.global_shutdown_edit_bt.Size = new System.Drawing.Size(56, 38);
+            this.global_shutdown_edit_bt.TabIndex = 41;
+            this.global_shutdown_edit_bt.Text = "18:30";
+            this.global_shutdown_edit_bt.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // wed_enable_ck
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox3.Location = new System.Drawing.Point(575, 91);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(58, 35);
-            this.checkBox3.TabIndex = 42;
-            this.checkBox3.Text = "开启";
-            this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.wed_enable_ck.AutoSize = true;
+            this.wed_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wed_enable_ck.Location = new System.Drawing.Point(575, 91);
+            this.wed_enable_ck.Name = "wed_enable_ck";
+            this.wed_enable_ck.Size = new System.Drawing.Size(58, 35);
+            this.wed_enable_ck.TabIndex = 42;
+            this.wed_enable_ck.Text = "开启";
+            this.wed_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.wed_enable_ck.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // thur_enable_ck
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox4.Location = new System.Drawing.Point(575, 134);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(58, 35);
-            this.checkBox4.TabIndex = 43;
-            this.checkBox4.Text = "开启";
-            this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.thur_enable_ck.AutoSize = true;
+            this.thur_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.thur_enable_ck.Location = new System.Drawing.Point(575, 134);
+            this.thur_enable_ck.Name = "thur_enable_ck";
+            this.thur_enable_ck.Size = new System.Drawing.Size(58, 35);
+            this.thur_enable_ck.TabIndex = 43;
+            this.thur_enable_ck.Text = "开启";
+            this.thur_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.thur_enable_ck.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // fri_enable_ck
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox5.Location = new System.Drawing.Point(575, 177);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(58, 35);
-            this.checkBox5.TabIndex = 44;
-            this.checkBox5.Text = "开启";
-            this.checkBox5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.fri_enable_ck.AutoSize = true;
+            this.fri_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fri_enable_ck.Location = new System.Drawing.Point(575, 177);
+            this.fri_enable_ck.Name = "fri_enable_ck";
+            this.fri_enable_ck.Size = new System.Drawing.Size(58, 35);
+            this.fri_enable_ck.TabIndex = 44;
+            this.fri_enable_ck.Text = "开启";
+            this.fri_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.fri_enable_ck.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // sat_enable_ck
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox6.Location = new System.Drawing.Point(575, 220);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(58, 35);
-            this.checkBox6.TabIndex = 45;
-            this.checkBox6.Text = "开启";
-            this.checkBox6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.sat_enable_ck.AutoSize = true;
+            this.sat_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sat_enable_ck.Location = new System.Drawing.Point(575, 220);
+            this.sat_enable_ck.Name = "sat_enable_ck";
+            this.sat_enable_ck.Size = new System.Drawing.Size(58, 35);
+            this.sat_enable_ck.TabIndex = 45;
+            this.sat_enable_ck.Text = "开启";
+            this.sat_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.sat_enable_ck.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // sun_enable_ck
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox7.Location = new System.Drawing.Point(575, 263);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(58, 35);
-            this.checkBox7.TabIndex = 46;
-            this.checkBox7.Text = "开启";
-            this.checkBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.sun_enable_ck.AutoSize = true;
+            this.sun_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sun_enable_ck.Location = new System.Drawing.Point(575, 263);
+            this.sun_enable_ck.Name = "sun_enable_ck";
+            this.sun_enable_ck.Size = new System.Drawing.Size(58, 35);
+            this.sun_enable_ck.TabIndex = 46;
+            this.sun_enable_ck.Text = "开启";
+            this.sun_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.sun_enable_ck.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // global_enable_ck
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox8.Location = new System.Drawing.Point(575, 306);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(58, 38);
-            this.checkBox8.TabIndex = 47;
-            this.checkBox8.Text = "开启";
-            this.checkBox8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.global_enable_ck.AutoSize = true;
+            this.global_enable_ck.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.global_enable_ck.Location = new System.Drawing.Point(575, 306);
+            this.global_enable_ck.Name = "global_enable_ck";
+            this.global_enable_ck.Size = new System.Drawing.Size(58, 38);
+            this.global_enable_ck.TabIndex = 47;
+            this.global_enable_ck.Text = "开启";
+            this.global_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.global_enable_ck.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -705,7 +705,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button mon_startup_edit_bt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -714,13 +714,13 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button mon_shutdown_edit_bt;
+        private System.Windows.Forms.CheckBox mon_enable_ck;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button tues_startup_edit_bt;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Button tues_shutdown_edit_bt;
+        private System.Windows.Forms.CheckBox tues_enable_ck;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
@@ -733,24 +733,24 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.Button wed_startup_edit_bt;
+        private System.Windows.Forms.Button thur_startup_edit_bt;
+        private System.Windows.Forms.Button fri_startup_edit_bt;
+        private System.Windows.Forms.Button sat_startup_edit_bt;
+        private System.Windows.Forms.Button sun_startup_edit_bt;
+        private System.Windows.Forms.Button global_startup_edit_bt;
+        private System.Windows.Forms.Button wed_shutdown_edit_bt;
+        private System.Windows.Forms.Button thur_shutdown_edit_bt;
+        private System.Windows.Forms.Button fri_shutdown_edit_bt;
+        private System.Windows.Forms.Button sat_shutdown_edit_bt;
+        private System.Windows.Forms.Button sun_shutdown_edit_bt;
+        private System.Windows.Forms.Button global_shutdown_edit_bt;
+        private System.Windows.Forms.CheckBox wed_enable_ck;
+        private System.Windows.Forms.CheckBox thur_enable_ck;
+        private System.Windows.Forms.CheckBox fri_enable_ck;
+        private System.Windows.Forms.CheckBox sat_enable_ck;
+        private System.Windows.Forms.CheckBox sun_enable_ck;
+        private System.Windows.Forms.CheckBox global_enable_ck;
     }
 }
 

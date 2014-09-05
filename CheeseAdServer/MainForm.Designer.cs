@@ -192,8 +192,10 @@
             this.mon_startup_edit_bt.Name = "mon_startup_edit_bt";
             this.mon_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.mon_startup_edit_bt.TabIndex = 2;
+            this.mon_startup_edit_bt.Tag = "mon_startup_time";
             this.mon_startup_edit_bt.Text = "06:30";
             this.mon_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.mon_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // label3
             // 
@@ -290,8 +292,10 @@
             this.mon_shutdown_edit_bt.Name = "mon_shutdown_edit_bt";
             this.mon_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.mon_shutdown_edit_bt.TabIndex = 11;
+            this.mon_shutdown_edit_bt.Tag = "mon_shutdown_time";
             this.mon_shutdown_edit_bt.Text = "18:30";
             this.mon_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.mon_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // mon_enable_ck
             // 
@@ -301,9 +305,11 @@
             this.mon_enable_ck.Name = "mon_enable_ck";
             this.mon_enable_ck.Size = new System.Drawing.Size(58, 35);
             this.mon_enable_ck.TabIndex = 12;
+            this.mon_enable_ck.Tag = "mon_schedule_enable";
             this.mon_enable_ck.Text = "开启";
             this.mon_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.mon_enable_ck.UseVisualStyleBackColor = true;
+            this.mon_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // label11
             // 
@@ -323,8 +329,10 @@
             this.tues_startup_edit_bt.Name = "tues_startup_edit_bt";
             this.tues_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.tues_startup_edit_bt.TabIndex = 14;
+            this.tues_startup_edit_bt.Tag = "tues_startup_time";
             this.tues_startup_edit_bt.Text = "06:30";
             this.tues_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.tues_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // label12
             // 
@@ -344,8 +352,10 @@
             this.tues_shutdown_edit_bt.Name = "tues_shutdown_edit_bt";
             this.tues_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.tues_shutdown_edit_bt.TabIndex = 16;
+            this.tues_shutdown_edit_bt.Tag = "tues_shutdown_time";
             this.tues_shutdown_edit_bt.Text = "18:30";
             this.tues_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.tues_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // tues_enable_ck
             // 
@@ -355,9 +365,11 @@
             this.tues_enable_ck.Name = "tues_enable_ck";
             this.tues_enable_ck.Size = new System.Drawing.Size(58, 35);
             this.tues_enable_ck.TabIndex = 17;
+            this.tues_enable_ck.Tag = "tues_schedule_enable";
             this.tues_enable_ck.Text = "开启";
             this.tues_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.tues_enable_ck.UseVisualStyleBackColor = true;
+            this.tues_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // label13
             // 
@@ -498,8 +510,10 @@
             this.wed_startup_edit_bt.Name = "wed_startup_edit_bt";
             this.wed_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.wed_startup_edit_bt.TabIndex = 30;
+            this.wed_startup_edit_bt.Tag = "wed_startup_time";
             this.wed_startup_edit_bt.Text = "06:30";
             this.wed_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.wed_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // thur_startup_edit_bt
             // 
@@ -508,8 +522,10 @@
             this.thur_startup_edit_bt.Name = "thur_startup_edit_bt";
             this.thur_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.thur_startup_edit_bt.TabIndex = 31;
+            this.thur_startup_edit_bt.Tag = "thur_startup_time";
             this.thur_startup_edit_bt.Text = "06:30";
             this.thur_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.thur_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // fri_startup_edit_bt
             // 
@@ -518,8 +534,10 @@
             this.fri_startup_edit_bt.Name = "fri_startup_edit_bt";
             this.fri_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.fri_startup_edit_bt.TabIndex = 32;
+            this.fri_startup_edit_bt.Tag = "fri_startup_time";
             this.fri_startup_edit_bt.Text = "06:30";
             this.fri_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.fri_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // sat_startup_edit_bt
             // 
@@ -528,8 +546,10 @@
             this.sat_startup_edit_bt.Name = "sat_startup_edit_bt";
             this.sat_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.sat_startup_edit_bt.TabIndex = 33;
+            this.sat_startup_edit_bt.Tag = "sat_startup_time";
             this.sat_startup_edit_bt.Text = "06:30";
             this.sat_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.sat_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // sun_startup_edit_bt
             // 
@@ -538,8 +558,10 @@
             this.sun_startup_edit_bt.Name = "sun_startup_edit_bt";
             this.sun_startup_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.sun_startup_edit_bt.TabIndex = 34;
+            this.sun_startup_edit_bt.Tag = "sun_startup_time";
             this.sun_startup_edit_bt.Text = "06:30";
             this.sun_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.sun_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // global_startup_edit_bt
             // 
@@ -548,8 +570,10 @@
             this.global_startup_edit_bt.Name = "global_startup_edit_bt";
             this.global_startup_edit_bt.Size = new System.Drawing.Size(56, 38);
             this.global_startup_edit_bt.TabIndex = 35;
+            this.global_startup_edit_bt.Tag = "global_startup_time";
             this.global_startup_edit_bt.Text = "06:30";
             this.global_startup_edit_bt.UseVisualStyleBackColor = true;
+            this.global_startup_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // wed_shutdown_edit_bt
             // 
@@ -558,8 +582,10 @@
             this.wed_shutdown_edit_bt.Name = "wed_shutdown_edit_bt";
             this.wed_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.wed_shutdown_edit_bt.TabIndex = 36;
+            this.wed_shutdown_edit_bt.Tag = "wed_shutdown_time";
             this.wed_shutdown_edit_bt.Text = "18:30";
             this.wed_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.wed_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // thur_shutdown_edit_bt
             // 
@@ -568,8 +594,10 @@
             this.thur_shutdown_edit_bt.Name = "thur_shutdown_edit_bt";
             this.thur_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.thur_shutdown_edit_bt.TabIndex = 37;
+            this.thur_shutdown_edit_bt.Tag = "thur_shutdown_time";
             this.thur_shutdown_edit_bt.Text = "18:30";
             this.thur_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.thur_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // fri_shutdown_edit_bt
             // 
@@ -578,8 +606,10 @@
             this.fri_shutdown_edit_bt.Name = "fri_shutdown_edit_bt";
             this.fri_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.fri_shutdown_edit_bt.TabIndex = 38;
+            this.fri_shutdown_edit_bt.Tag = "fri_shutdown_time";
             this.fri_shutdown_edit_bt.Text = "18:30";
             this.fri_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.fri_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // sat_shutdown_edit_bt
             // 
@@ -588,8 +618,10 @@
             this.sat_shutdown_edit_bt.Name = "sat_shutdown_edit_bt";
             this.sat_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.sat_shutdown_edit_bt.TabIndex = 39;
+            this.sat_shutdown_edit_bt.Tag = "sat_shutdown_time";
             this.sat_shutdown_edit_bt.Text = "18:30";
             this.sat_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.sat_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // sun_shutdown_edit_bt
             // 
@@ -598,8 +630,10 @@
             this.sun_shutdown_edit_bt.Name = "sun_shutdown_edit_bt";
             this.sun_shutdown_edit_bt.Size = new System.Drawing.Size(56, 35);
             this.sun_shutdown_edit_bt.TabIndex = 40;
+            this.sun_shutdown_edit_bt.Tag = "sun_shutdown_time";
             this.sun_shutdown_edit_bt.Text = "18:30";
             this.sun_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.sun_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // global_shutdown_edit_bt
             // 
@@ -608,8 +642,10 @@
             this.global_shutdown_edit_bt.Name = "global_shutdown_edit_bt";
             this.global_shutdown_edit_bt.Size = new System.Drawing.Size(56, 38);
             this.global_shutdown_edit_bt.TabIndex = 41;
+            this.global_shutdown_edit_bt.Tag = "global_shutdown_time";
             this.global_shutdown_edit_bt.Text = "18:30";
             this.global_shutdown_edit_bt.UseVisualStyleBackColor = true;
+            this.global_shutdown_edit_bt.Click += new System.EventHandler(this.schedule_edit_bt_Click);
             // 
             // wed_enable_ck
             // 
@@ -619,9 +655,11 @@
             this.wed_enable_ck.Name = "wed_enable_ck";
             this.wed_enable_ck.Size = new System.Drawing.Size(58, 35);
             this.wed_enable_ck.TabIndex = 42;
+            this.wed_enable_ck.Tag = "wed_schedule_enable";
             this.wed_enable_ck.Text = "开启";
             this.wed_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.wed_enable_ck.UseVisualStyleBackColor = true;
+            this.wed_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // thur_enable_ck
             // 
@@ -631,9 +669,11 @@
             this.thur_enable_ck.Name = "thur_enable_ck";
             this.thur_enable_ck.Size = new System.Drawing.Size(58, 35);
             this.thur_enable_ck.TabIndex = 43;
+            this.thur_enable_ck.Tag = "thur_schedule_enable";
             this.thur_enable_ck.Text = "开启";
             this.thur_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.thur_enable_ck.UseVisualStyleBackColor = true;
+            this.thur_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // fri_enable_ck
             // 
@@ -643,9 +683,11 @@
             this.fri_enable_ck.Name = "fri_enable_ck";
             this.fri_enable_ck.Size = new System.Drawing.Size(58, 35);
             this.fri_enable_ck.TabIndex = 44;
+            this.fri_enable_ck.Tag = "fri_schedule_enable";
             this.fri_enable_ck.Text = "开启";
             this.fri_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.fri_enable_ck.UseVisualStyleBackColor = true;
+            this.fri_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // sat_enable_ck
             // 
@@ -655,9 +697,11 @@
             this.sat_enable_ck.Name = "sat_enable_ck";
             this.sat_enable_ck.Size = new System.Drawing.Size(58, 35);
             this.sat_enable_ck.TabIndex = 45;
+            this.sat_enable_ck.Tag = "sat_schedule_enable";
             this.sat_enable_ck.Text = "开启";
             this.sat_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.sat_enable_ck.UseVisualStyleBackColor = true;
+            this.sat_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // sun_enable_ck
             // 
@@ -667,9 +711,11 @@
             this.sun_enable_ck.Name = "sun_enable_ck";
             this.sun_enable_ck.Size = new System.Drawing.Size(58, 35);
             this.sun_enable_ck.TabIndex = 46;
+            this.sun_enable_ck.Tag = "sun_schedule_enable";
             this.sun_enable_ck.Text = "开启";
             this.sun_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.sun_enable_ck.UseVisualStyleBackColor = true;
+            this.sun_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // global_enable_ck
             // 
@@ -679,9 +725,11 @@
             this.global_enable_ck.Name = "global_enable_ck";
             this.global_enable_ck.Size = new System.Drawing.Size(58, 38);
             this.global_enable_ck.TabIndex = 47;
+            this.global_enable_ck.Tag = "global_schedule_enable";
             this.global_enable_ck.Text = "开启";
             this.global_enable_ck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.global_enable_ck.UseVisualStyleBackColor = true;
+            this.global_enable_ck.CheckedChanged += new System.EventHandler(this.schedule_enable_CheckedChanged);
             // 
             // MainForm
             // 

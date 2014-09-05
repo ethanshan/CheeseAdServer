@@ -12,7 +12,8 @@ namespace CheeseAdServer {
     public partial class MainForm : Form {
         private static String TAG = "MainForm";
 
-        private TimePickerForm timePicker = null;
+        private TimePickerForm timePicker   = null;
+        private ControlServer server        = null;
 
         public MainForm() {
             timePicker = new TimePickerForm(this);
@@ -21,6 +22,9 @@ namespace CheeseAdServer {
 
         private void refresh_bt_Click(object sender, EventArgs e) {
             //ControlClient.Connect("192.168.1.101", "Hello World\n 1 \n 2 \n");
+            // Create server and start
+            server = new ControlServer(); 
+            server.start();
         }
 
         private void MainForm_Load(object sender, EventArgs e) {
